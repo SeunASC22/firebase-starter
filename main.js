@@ -71,7 +71,7 @@ function addMessageToBoard(rowData){
 
     console.log(data);
 
-    let singleMessage = makeSingleMessageHTML(date.USERNAME,data.MESSAGE);
+    let singleMessage = makeSingleMessageHTML(data.USERNAME,data.MESSAGE);
 
     allMessages.append(singleMessage);
 }
